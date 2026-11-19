@@ -2,7 +2,7 @@
 
 Sistema de gestión de pedidos para una cafetería utilizando servicios de AWS.
 
-https://cafecloud-frontend-2026-udea.s3-website.us-east-2.amazonaws.com
+http://cafecloud-frontend-2026-udea.s3-website.us-east-2.amazonaws.com
 
 **Descripción del proyecto**
 
