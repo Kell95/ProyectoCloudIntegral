@@ -1,1 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CaféCloud - Tu café favorito, a un clic de distancia.">
+    <title>CaféCloud | Tu momento de café</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo">CafeCloud</span></a>
+
+            <nav class="nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#menu">Nuestro café</a>
+                <a href="#pedidos">Pedidos</a>
+                <a href="#historial">Historial</a>
+            </nav>
+
+            <a href="#pedidos" class="nav-button">Ordenar ahora</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- INICIO -->
+        <section class="hero" id="inicio">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="eyebrow">BIENVENIDO A CAFECLOUD</span>
+                    <h1>Un buen café<br>cambia tu <span>día.</span></h1>
+                    <p>
+                        Disfruta de tus bebidas favoritas, preparadas
+                        para acompañar tus mejores momentos.
+                    </p>
+                    <a href="#menu" class="primary-button">Descubrir menú</a>
+                </div>
+
+                    <div class="hero-decoration">
+            <div class="hero-photo">
+                    <div class="hero-photo-label">
+                        <span>CAFÉ DE ESPECIALIDAD</span>
+                        <h3>Hecho con pasión</h3>
+                      </div>
+                  </div>
+               </div>
+            </div>
+        </section>
+
+        <!-- MENÚ -->
+        <section class="menu-section section" id="menu">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">NUESTRO MENÚ</span>
+                    <h2>Encuentra tu favorito</h2>
+                    <p>Diez opciones para disfrutar cada momento.</p>
+                </div>
+
+                <div class="products-grid">
+
+                    <article class="product-card">
+                        <div class="product-visual americano">
+                            <span>☕</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">CLÁSICO</span>
+                            <h3>Americano</h3>
+                            <p>Café suave y aromático para comenzar el día.</p>
+                            <div class="product-footer">
+                                <strong>$5.000</strong>
+                                <button class="choose-button" type="button" data-product="Americano">Agregar +</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-visual capuchino">
+                            <span>☕</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">CREMOSO</span>
+                            <h3>Capuchino</h3>
+                            <p>Espresso acompañado de leche y espuma cremosa.</p>
+                            <div class="product-footer">
+                                <strong>$8.000</strong>
+                                <button class="choose-button" type="button" data-product="Capuchino">Agregar +</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-visual latte">
+                            <span>☕</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">SUAVE</span>
+                            <h3>Latte</h3>
+                            <p>Una combinación equilibrada de café espresso y leche.</p>
+                            <div class="product-footer">
+                                <strong>$9.000</strong>
+                                <button class="choose-button" type="button" data-product="Latte">Agregar +</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-visual mocaccino">
+                            <span>☕</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">CHOCOLATADO</span>
+                            <h3>Mocaccino</h3>
+                            <p>El sabor del café combinado con un toque de chocolate.</p>
+                            <div class="product-footer">
+                                <strong>$10.000</strong>
+                                <button class="choose-button" type="button" data-product="Mocaccino">Agregar +</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-visual espresso">
+                            <span>☕</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">INTENSO</span>
+                            <h3>Espresso</h3>
+                            <p>Café concentrado de sabor intenso y aroma inconfundible.</p>
+                            <div class="product-footer">
+                                <strong>$4.000</strong>
+                                <button class="choose-button" type="button" data-product="Espresso">Agregar +</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-visual cafe-frio">
+                            <span>🧊</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">REFRESCANTE</span>
+                            <h3>Café frío</h3>
+                            <p>Café preparado en frío, ideal para cualquier momento.</p>
+                            <div class="product-footer">
+                                <strong>$8.000</strong>
+                                <button class="choose-button" type="button" data-product="Café frío">Agregar +</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-visual vainilla-latte">
+                            <span>☕</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">AROMÁTICO</span>
+                            <h3>Vainilla Latte</h3>
+                            <p>Espresso con leche cremosa y un toque de vainilla.</p>
+                            <div class="product-footer">
+                                <strong>$10.000</strong>
+                                <button class="choose-button" type="button" data-product="Vainilla Latte">Agregar +</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-visual caramel">
+                            <span>☕</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">ESPECIAL</span>
+                            <h3>Caramel Macchiato</h3>
+                            <p>Espresso, leche y un delicioso toque de caramelo.</p>
+                            <div class="product-footer">
+                                <strong>$12.000</strong>
+                                <button class="choose-button" type="button" data-product="Caramel Macchiato">Agregar +</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-visual chocolate">
+                            <span>🍫</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">TRADICIONAL</span>
+                            <h3>Chocolate caliente</h3>
+                            <p>Bebida cremosa de chocolate para una pausa dulce.</p>
+                            <div class="product-footer">
+                                <strong>$8.000</strong>
+                                <button class="choose-button" type="button" data-product="Chocolate caliente">Agregar +</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-visual chai">
+                            <span>🍵</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">ESPECIADO</span>
+                            <h3>Chai Latte</h3>
+                            <p>Té especiado combinado con leche suave y cremosa.</p>
+                            <div class="product-footer">
+                                <strong>$10.000</strong>
+                                <button class="choose-button" type="button" data-product="Chai Latte">Agregar +</button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- PEDIDOS -->
+        <section class="order-section section" id="pedidos">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">TU PEDIDO</span>
+                    <h2>Prepara tu orden</h2>
+                    <p>Agrega tus bebidas favoritas y confirma tu pedido.</p>
+                </div>
+
+                <div class="order-layout">
+                    <form id="orderForm" class="order-form">
+                        <div class="form-heading">
+                            <h3>Datos del cliente</h3>
+                            <p>Completa tus datos para registrar el pedido.</p>
+                        </div>
+
+                        <label for="customer">Nombre del cliente</label>
+                        <input
+                            type="text"
+                            id="customer"
+                            name="customer"
+                            placeholder="Escribe tu nombre"
+                            maxlength="100"
+                            required
+                        >
+
+                        <div class="cart-heading">
+                            <h3>Tu carrito</h3>
+                            <span id="cartCount">0 productos</span>
+                        </div>
+
+                        <div id="cartItems" class="cart-items">
+                            <div class="cart-empty">
+                                <span>☕</span>
+                                <p>Tu carrito está vacío.</p>
+                                <small>Selecciona una bebida del menú para comenzar.</small>
+                            </div>
+                        </div>
+
+                        <div class="total-preview">
+                            <span>Total del pedido</span>
+                            <strong id="pricePreview">$0</strong>
+                        </div>
+
+                        <button type="submit" id="submitOrder" class="submit-button">
+                            Registrar pedido →
+                        </button>
+
+                        <p id="formMessage" class="form-message" aria-live="polite"></p>
+                    </form>
+
+
+                        <aside class="order-aside">
+                            <div class="aside-photo"></div>
+
+                            <h3>Tu momento CafeCloud</h3>
+
+                            <p>
+                                Cada café tiene una historia. Elige tus bebidas favoritas
+                                y disfruta de una experiencia especial.
+                            </p>
+
+                            <div class="aside-info">
+                                <div>
+                                    <span>Productos disponibles</span>
+                                    <strong>10 bebidas</strong>
+                                </div>
+
+                                <div>
+                                    <span>Moneda</span>
+                                    <strong>Pesos colombianos (COP)</strong>
+                                </div>
+                            </div>
+                        </aside>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- HISTORIAL -->
+        <section class="history-section section" id="historial">
+            <div class="container">
+                <div class="history-heading">
+                    <div>
+                        <span class="eyebrow">REGISTROS</span>
+                        <h2>Historial de pedidos</h2>
+                        <p>Consulta los pedidos registrados en CaféCloud.</p>
+                    </div>
+                    <button id="refreshOrders" class="refresh-button" type="button">
+                        ↻ Actualizar
+                    </button>
+                </div>
+
+                <div class="history-summary">
+                    <span>Pedidos registrados</span>
+                    <strong id="ordersCount">0</strong>
+                </div>
+
+                <div id="ordersList" class="orders-list">
+                    <p class="history-empty">Cargando pedidos...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <a href="#inicio" class="logo">Café<span>Cloud</span></a>
+            <p>Un buen café, en cualquier momento.</p>
+            <small>© 2026 CaféCloud. Proyecto académico.</small>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
