@@ -66,19 +66,7 @@ Consulta del historial de pedidos.
 
 **Estructura del proyecto**
 
-ProyectoCloudIntegral/
-│
-├── frontend/
-│   ├── index.html
-│   ├── styles.css
-│   └── app.js
-│
-├── backend/
-│
-├── lambda/
-│   └── lambda_function.py
-│
-└── README.md
+
 
 **Despliegue**
 
