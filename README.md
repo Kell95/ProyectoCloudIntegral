@@ -10,33 +10,33 @@ El proyecto utiliza una arquitectura basada en servicios de AWS, donde el fronte
 
 **Objetivos**
 
-Desarrollar una aplicación web para la gestión de pedidos de una cafetería.
+- Desarrollar una aplicación web para la gestión de pedidos de una cafetería.
 
-Implementar servicios de computación en la nube mediante AWS.
+- Implementar servicios de computación en la nube mediante AWS.
 
-Conectar el frontend con servicios backend utilizando una API.
+- Conectar el frontend con servicios backend utilizando una API.
 
-Almacenar y consultar información de productos y pedidos en DynamoDB.
+- Almacenar y consultar información de productos y pedidos en DynamoDB.
 
 **Tecnologías utilizadas**
 
-Frontend
+- Frontend
 
-HTML5
+- HTML5
 
-CSS3
+- CSS3
 
-JavaScript
+- JavaScript
 
-Backend y servicios AWS
+- Backend y servicios AWS
 
-Amazon S3: alojamiento del frontend.
+- Amazon S3: alojamiento del frontend.
 
-Amazon API Gateway: exposición de los endpoints de la aplicación.
+- Amazon API Gateway: exposición de los endpoints de la aplicación.
 
-AWS Lambda: procesamiento de las solicitudes y lógica del backend.
+- AWS Lambda: procesamiento de las solicitudes y lógica del backend.
 
-Amazon DynamoDB: almacenamiento de productos y pedidos.
+- Amazon DynamoDB: almacenamiento de productos y pedidos.
 
 **Arquitectura del sistema**
 
