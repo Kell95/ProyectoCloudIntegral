@@ -16,7 +16,7 @@ El proyecto utiliza una arquitectura basada en servicios de AWS, donde el fronte
 
 - Conectar el frontend con servicios backend utilizando una API.
 
-- Almacenar y consultar información de productos y pedidos en DynamoDB.
+- Almacenar y consultar información de pedidos en DynamoDB.
 
 **Tecnologías utilizadas**
 
@@ -36,7 +36,7 @@ El proyecto utiliza una arquitectura basada en servicios de AWS, donde el fronte
 
 - AWS Lambda: procesamiento de las solicitudes y lógica del backend.
 
-- Amazon DynamoDB: almacenamiento de productos y pedidos.
+- Amazon DynamoDB: almacenamiento de pedidos.
 
 **Arquitectura del sistema**
 
@@ -56,7 +56,7 @@ Los resultados se devuelven al frontend para mostrarlos al usuario.
 
 Visualización del catálogo de bebidas.
 
-Consulta de productos almacenados en DynamoDB.
+Consulta de pedidos almacenados en DynamoDB.
 
 Selección de productos y administración del carrito.
 
