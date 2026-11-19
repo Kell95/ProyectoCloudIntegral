@@ -1,8 +1,10 @@
 # ProyectoCloudIntegral-CafeCloud
 
-Sistema de gestión de pedidos para una cafetería utilizando servicios de computación en la nube de AWS.
+Sistema de gestión de pedidos para una cafetería utilizando servicios de AWS.
 
-Descripción del proyecto
+https://cafecloud-frontend-2026-udea.s3-website.us-east-2.amazonaws.com
+
+**Descripción del proyecto**
 
 CaféCloud es una aplicación web desarrollada para gestionar los pedidos de una cafetería. Permite a los usuarios consultar el catálogo de productos, seleccionar bebidas, agregarlas a un carrito y registrar sus pedidos.
 
